@@ -42,8 +42,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 29, 128, 159;
-  --bs-secondary-rgb: 236, 184, 7;
+  --bs-primary-rgb: 186, 104, 200;
+  /* --bs-primary-rgb: 29, 128, 159; */
+  --bs-secondary-rgb: 139, 69, 19;
+  /* --bs-secondary-rgb: 236, 184, 7; */
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 236, 184, 7;
@@ -10843,6 +10845,30 @@ html {
   text-transform: uppercase;
 }
 
+#about,
+#portfolio,
+#footer
+{
+  background-color: #e0b3ff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: brown;
+}
+
+#contact {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img2/fondoPrincipal.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: brown;
+}
+
+#formContact {
+  padding: 3rem;
+  max-width: 600px;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -10959,12 +10985,13 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img2/fondoPrincipal.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: brown;
 }
-.callout h2, .callout .h2 {
+.callout h2, .callout .h2{
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
@@ -11014,10 +11041,11 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img2/fondoPrincipal.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: brown;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
